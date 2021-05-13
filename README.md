@@ -55,7 +55,7 @@ git push origin master
 ![Пикча](https://teletype.in/files/dd/6a/dd6aaec5-a120-457a-a3e2-d140f73a6570.png "Да")
 
 ### Шаг 4
-Нажмите _Create pull_ request.
+Нажмите _Create pull request_.
 
 ![Пикча](https://teletype.in/files/e2/6b/e26b5937-ff5c-4d10-8f91-52bb184677e5.png "Да")
 
@@ -70,20 +70,19 @@ git push origin master
 ```
 git pull
 ```
-
 Обновляет файлы до последних изменений.
+____
 ```
 git add .
 ```
-
 Находит новые файлы и подготавливает их к пушу.
+____
 ```
 git commit
 ```
-
 Сравнивает Ваши файлы с репозиторием, находит изменения, и фиксирует коротким комментарием.
+____
 ```
 git push
 ```
-
 Ссылка в Сибирь.
