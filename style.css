@@ -81,9 +81,10 @@ a {
     display: flex;
     text-align: center;
     flex-direction: column;
-    height: 900px;
+    height: 822px;
     width: 100%;
     background-color: black;
+    position: relative;
 }
 .deliveryH {
     margin: 48px;
@@ -110,24 +111,25 @@ a {
     position: absolute;
     width: 88px;
     height: 88px;
-    left: 1200px;
-    top: 10px;
+    left: 75%;
+    top: 1%;
 }
 .deliveryIm {
     position: absolute;
     width: 58px;
     height: 58px;
-    left: 1150px;
-    top: 60px;
+    left: 72%;
+    top: 65%;
 }
 .deliveryImg {
     position: absolute;
     width: 58px;
     height: 58px;
-    left: 700px;
-    top: -40px;
+    left: 32%;
+    top: -25%;
 }
 .deliveryZum {
     width: 1200px;
-    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
 }
