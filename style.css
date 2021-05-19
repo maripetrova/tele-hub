@@ -80,13 +80,19 @@ a {
 .delivery {
     display: flex;
     text-align: center;
+    justify-content: space-between;
     flex-direction: column;
+    border-bottom: 5px solid #C219D9;
     height: 900px;
     width: 100%;
     background-color: black;
 }
 .deliveryH {
     margin: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
 }
 .deliveryB {
     width: 100%;
@@ -128,6 +134,15 @@ a {
     top: -40px;
 }
 .deliveryZum {
-    width: 1200px;
+    height: 593px;
+    width: 1054px;
+    background-position-y: 35px;
+    background-repeat: no-repeat;
+    background-image: url("imgs/zumers.png");
     margin: 0 auto;
+}
+.deliveryGerl {
+    position: absolute;
+    left: 730px;
+    top: 310px;
 }
