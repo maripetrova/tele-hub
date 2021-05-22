@@ -60,6 +60,39 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
 }
+footer{
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,1), rgba(113, 14, 125, 1));
+    /*background: radial-gradient(rgba(0,0,0,1), rgba(113, 14, 125, 1));*/
+    display: flex;
+    align-items: center;
+}
+.pink {
+    color: rgb(219, 0, 255);
+}
+
+.info {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 1.5;
+}
+.copy {
+    height: 50%;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    left: 300px;
+}
+.bigDino {
+    position: relative;
+    right: -800px;
+}
 ::-webkit-scrollbar {
     width: 0;
 }
@@ -69,6 +102,28 @@ header {
     border-radius: 50%;
     background: white;
     text-align: center;
+}
+.block {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+}
+.text {
+    background: rgba(194, 25, 217, 0.3);
+    height: 400px;
+    width: 700px;
+    font-size: 60px;
+    padding: 25px;
+    position: relative;
+    top: 166px;
+    left: -200px;
+}
+
+.laptop {
+    position: relative;
+    top: -347px;
+    left: 120px;
 }
 p{
     margin: 0;
@@ -143,7 +198,7 @@ a {
 }
 .bot-form{
     position: fixed;
-    bottom: 0px;
+    bottom: 0;
     right: 20px;
     height: 480px;
     width: 350px;
