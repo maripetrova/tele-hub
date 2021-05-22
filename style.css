@@ -488,3 +488,84 @@ line-height: 88px;
         margin: 0;
     }
 
+.merch {
+    height: 100%;
+    background: radial-gradient(169.99% 169.99% at 50% -69.99%, #710E7D 0%, #000000 100%) no-repeat;
+    position: relative;
+}
+.text {
+    font-size: 83px;
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+.treeBig {
+height: 80px;
+width: 80px;
+position: absolute;
+left: 39%;
+}
+.treeSmall {
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    left: 40%;
+    top: 17%;
+    
+
+}
+.Mbut {
+    width: 394px;
+    height: 70px;
+    background: #DB00FF;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    
+
+    
+}
+.but{
+    text-align: center;
+    padding-top: 2%;
+    height: 90px;
+    position: relative;
+    
+}
+.cont {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.strip {
+    position: absolute;
+    right: 0;
+}
+.dudes {
+    
+    display: block;
+    margin: auto;
+    width: 1020px;
+    height: 570px;
+    
+}
+.bord {
+    border: 5px solid rgba(194, 25, 217, 0.63);
+}
+.SecondtreeSmall {
+    height: 58px;
+width: 58px;
+margin-right: 11%;
+bottom: 0;
+position: absolute;
+}
+.trees {
+    flex-wrap: wrap-reverse;
+    
+}
