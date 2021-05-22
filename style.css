@@ -403,4 +403,88 @@ a {
     width: 100%;
     /* bottom: -250px; */
 }
+.bank-pic{
+    display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.bank{
+    background-color: #000000;
+  text-align: center;
+    position: relative;
+    width: 100%;
+
+
+ 
+    
+}
+.h1{
+    text-align: center;
+    color: white;
+    background-color: white;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    
+}
+button {
+    background: #DB00FF;
+    border-radius: 10px;
+    width: 500px;
+    height: 70px;
+    font-size: 60px;
+    text-align: center;
+    }
+    .bank-but {
+    text-align: center;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 100px;
+}
+    
+    .font{
+        text-align: center;
+    }
+    .bank-text {
+ 
+    text-align: center;
+    color: white;
+margin: 0;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+ font-size: 25.4819px;
+line-height: 88px;
+
+    }
+   
+    
+    
+.bankelka{
+        position: absolute;
+        top: 160px;
+        left: 1000px;
+    }
+.bankelka2{
+        position: absolute;
+        top: 170px;
+        left: 430px;
+        width: 80px;
+        
+    }
+.bankelka3{
+        position: absolute;
+        top: 260px;
+        left: 460px;
+        width: 50px;
+
+    }
+    .bankh{
+        margin: 0;
+    }
 
