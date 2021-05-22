@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Tele-hub</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="imgs/dinoFIXED.png">
 </head>
+
 <body>
     <div class="show-bot"></div>
     <form action="" class="bot-form">
@@ -19,9 +21,7 @@
         </div>
         <div class="bot-content">
             <div class="bot-message">Привет, я твой личный помощник Никита.</div>
-            <div class="bot-message">Отправь одну из нижеперечислинных команд, что бы я смог тебе помочь! <br> <span
-                    class="bot-help">1 - Помощь с тарифом</span>; <br><span class="bot-help">2 - Контакты</span>; <br><span
-                    class="bot-help">3 - Цены</span>;</div>
+            <div class="bot-message">Отправь одну из нижеперечислинных команд, что бы я смог тебе помочь! <br> <span class="bot-help">1 - Помощь с тарифом</span>; <br><span class="bot-help">2 - Контакты</span>; <br><span class="bot-help">3 - Цены</span>;</div>
         </div>
         <div class="bot-inputarea">
             <input class="bot-input" type="text" placeholder="Напишите что-нибудь">
@@ -65,30 +65,53 @@
                         <img class="backFoto" src="imgs/house.png">
                     </div>
                 </div>
-                <div class="card">
-                    <div class="cardTop"></div>
-                    <div class="cardBottom">
-                        <img class="backFoto" src="imgs/telkaNaDevane.png">
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="cardTop"></div>
-                    <div class="cardBottom">
-                        <img class="backFoto" src="imgs/car.png">
-                    </div>
-                </div>
-            </div> 
-        </div>
-        <div class="delivery">
-            <h1 class="deliveryH">Оформите сим-карту прямо сейчас</h1>
-            <div class="deliveryB">
-                <button class="deliveryBtn">оформить</button>
-                <img class="deliveryI" src="imgs/ааааа33.png">
-                <img class="deliveryIm" src="imgs/ааааа33.png">
-                <img class="deliveryImg" src="imgs/ааааа33.png">
             </div>
-                <div class="deliveryZum"></div>
+            <div class="card">
+                <div class="cardTop"></div>
+                <div class="cardBottom">
+                    <img class="backFoto" src="imgs/telkaNaDevane.png">
+                </div>
+            </div>
+            <div class="card">
+                <div class="cardTop"></div>
+                <div class="cardBottom">
+                    <img class="backFoto" src="imgs/car.png">
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="delivery">
+        <h1 class="deliveryH">Оформите сим-карту прямо сейчас</h1>
+        <div class="deliveryB">
+            <button class="deliveryBtn">оформить</button>
+            <img class="deliveryI" src="imgs/ааааа33.png">
+            <img class="deliveryIm" src="imgs/ааааа33.png">
+            <img class="deliveryImg" src="imgs/ааааа33.png">
+        </div>
+        <div class="deliveryZum"></div>
+    </div>
+    <div class="popup">
+        <button type="button" class="popup__close"><span class="visually-hidden">Закрыть</span></button>
+        <form action="" method="post" class="form form--sign-up">
+            <h1 class="form__title">Регистрация</h1>
+            <div class="form__box">
+                <input type="email" id="email" name="email" placeholder="почта:" class="form__input">
+                <input type="text" id="login" name="login" placeholder="логин:" class="form__input">
+                <input type="password" id="password" name="password" placeholder="пароль:" class="form__input">
+                <button type="submit" class="form__btn">Зарегистрироваться</button>
+            </div>
+        </form>
+        <form action="" method="post" class="form form--sign-in">
+            <h1 class="form__title form__title--sign-in">Вход</h1>
+            <div class="form__box">
+                <input type="text" id="login" name="login" placeholder="логин:" class="form__input">
+                <input type="password" id="password" name="password" placeholder="пароль:" class="form__input">
+                <button type="submit" class="form__btn">Войти</button>
+            </div>
+        </form>
+    </div>
+    <script src="scripts/bot.js"></script>
+    <script src="scripts/popup.js"></script>
         <div class="bank">
             <div class="bank-text"><h1 class="bankh">Наше приложение с банком</h1></div>
         <div class="bank-but"><button>скоро на сайте</button></div>
@@ -116,8 +139,6 @@
         <div class="cont">
        <div class="text"><img class="treeBig" src="imgs/tree.png" alt="Ёлка">  Наш мерч  <img class="treeSmall" src="imgs/tree.png" alt="Ёлка"></div>   
      <div class="but"><button class="Mbut"> Перейти </button> <img class="SecondtreeSmall" src="imgs/tree.png" alt="Ёлка"> </div>
-    
-     
     </div>
       <div class="dudesHolder"> <img class="dudes" src="imgs/nogi.png" alt="Ребята"></div>  
          <div class="bord"></div>
