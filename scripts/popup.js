@@ -1,4 +1,4 @@
-const popupBtn = document.querySelector('.main');
+const popupBtn = document.querySelector('.navBtn');
 const closePopupBtn = document.querySelector('.popup__close')
 const popup = document.querySelector('.popup')
 
