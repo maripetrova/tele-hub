@@ -711,16 +711,40 @@ input {
     position: relative;
     display: flex;
 }
+
+.prof__btn-exit {
+    background-color: #da19f3;
+    font-size: 22px;
+    opacity: 0.7;
+    border-radius: 5px;
+    padding: 3px 20px;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+.prof__btn-exit:hover {
+    opacity: 1;
+}
+
 .prof__left {
     width: 35%;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 5rem;
+    position: relative;
     border-right: 5px solid rgba(194, 25, 217, .63);
 }
 .prof__right {
     width: 75%;
+	padding: 50px;
+}
+.prof__right_bottom {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .prof-logo {
     width: 200px;
@@ -914,3 +938,5 @@ input {
 .info__calls-allin {
     height: 1200px;
 }
+.error {color:orangered}
+.success {color:greenyellow}

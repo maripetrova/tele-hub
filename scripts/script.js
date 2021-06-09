@@ -7,4 +7,3 @@
             $('#autoWidth').removeClass('cS-hidden');
         } 
     });  
-  });
