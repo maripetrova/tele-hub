@@ -763,6 +763,8 @@ input {
     position: absolute;
     bottom: 0;
 }
+.prof__right {
+}
 .prof__header {
     display: flex;
     justify-content: center;
@@ -938,3 +940,4 @@ input {
 }
 .error {color:orangered}
 .success {color:greenyellow}
+}
