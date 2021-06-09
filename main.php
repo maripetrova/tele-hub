@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Tele-hub</title>
@@ -8,21 +9,15 @@
 </head>
 <body>
 <!--БОТ-->
-<div class="body">
     <div class="show-bot"></div>
     <form action="" class="bot-form">
-        
+        <div class="close-bot"></div>
         <div class="bot-header">
-          <div class="close-bot"></div>
             <div class="bot-answer">
-              
-            <div class="bot-name-area">
                 <div class="bot-name1">Вам отвечает... </div>
                 <div class="bot-name2">Бот Никита</div>
-                </div>
-                <div class="bot-img"></div>
             </div>
-            
+            <div class="bot-img"></div>
         </div>
         <div class="bot-content">
             <div class="bot-message">Привет, я твой личный помощник Никита.</div>
@@ -44,23 +39,32 @@
         <button type="button" class="popup__close">
             <span class="visually-hidden">Закрыть</span>
         </button>
-        <form action="signup-check.php" method="post" class="form form--sign-up">
-            <h1 class="form__title">Регистрация</h1>
-            <div class="form__box">
-                <input type="email" id="email" name="email" placeholder="почта:" class="form__input">
-                <input type="text" name="login" placeholder="логин:" class="form__input">
-                <input type="password"  name="password" placeholder="пароль:" class="form__input">
-                <button type="submit" class="form__btn form__btn2">Зарегистрироваться</button>
-            </div>
-        </form>
-        <form action="login.php" method="post" class="form form--sign-in">
-            <h1 class="form__title form__title--sign-in">Вход</h1>
-            <div class="form__box">
-                <input type="text" name="login" placeholder="логин:" class="form__input">
-                <input type="password" name="password" placeholder="пароль:" class="form__input">
-                <button type="submit" class="form__btn">Войти</button>
-            </div>
-        </form>
+    <form action="signup-check.php" method="post" class="form form--sign-up">
+        <h1 class="form__title">Регистрация</h1>
+        <?php if (isset($_GET['success'])) { ?>
+            <p class="success"><?php echo $_GET['success']; ?></p>
+        <?php } ?>
+        <?php if (isset($_GET['error_signup'])) { ?>
+            <p class="error"><?php echo $_GET['error_signup']; ?></p>
+        <?php } ?>
+        <div class="form__box">
+            <input type="email" id="email" name="email" placeholder="Почта:" class="form__input">
+            <input type="text" name="login" placeholder="Логин:" class="form__input">
+            <input type="password" name="password" placeholder="Пароль:" class="form__input">
+            <button type="submit" class="form__btn form__btn2">Зарегистрироваться</button>
+        </div>
+    </form>
+    <form action="login.php" method="post" class="form form--sign-in">
+        <h1 class="form__title form__title--sign-in">Вход</h1>
+        <?php if (isset($_GET['error_signin'])) { ?>
+            <p class="error"><?php echo $_GET['error_signin']; ?></p>
+        <?php } ?>
+        <div class="form__box">
+            <input type="text" id="login" name="login" placeholder="Логин:" class="form__input">
+            <input type="password" id="password" name="password" placeholder="Пароль:" class="form__input">
+            <button type="submit" class="form__btn">Войти</button>
+        </div>
+    </form>
     </div>
 
     <header>
@@ -77,7 +81,7 @@
                     <a href="" class="nav__link">Банк</a>
                 </li>
                 <li>
-                    <a href="tarifs.html">Тарифы</a>
+                    <a href="">Тарифы</a>
                 </li>
                 <li>
                     <button class="navBtn">Вход</button>
@@ -153,7 +157,7 @@
                 <a class="footer__link" href="tel:74993509053">+7 (499) 350-90-53</a>
             </p>
             <p>Поддержка</p>
-            <a href="questions.html">Часто задаваемые вопросы</a>
+            <p>Поддержать экологию</p>
             <p>Подключение платёжных систем и служб доставок</p>
             </div>
         </div>
@@ -163,7 +167,6 @@
         <img class="footer__dino" src="imgs/footer/dino.png" alt="bigdino">
         <img class="footer__tree" src="imgs/footer/tree.png" alt="tree">
     </footer>
-    </div>
     <script src="scripts/bot.js"></script>
     <script src="scripts/bot.js"></script>
     <script src="scripts/popup.js"></script>
