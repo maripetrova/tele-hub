@@ -18,10 +18,10 @@ if (isset($_SESSION['id']) && isset($_SESSION['login'])) {
             <a href="main.html"><img src="imgs/profile/black-dino-white2.png" alt="Логотип" class="prof-logo"></a>
             <ul class="prof__list">
                 <li>
-                    <a href="" class="prof__file">Профиль</a>
+                    <a href="profile.html" class="prof__file">Профиль</a>
                 </li>
                 <li>
-                    <a href="">Личные данные</a>
+                    <a href="profile.html">Личные данные</a>
                 </li>
                 <li>
                     <a onclick="link_to_change_pass()" style="cursor:pointer;">Смена пароля</a>
@@ -39,7 +39,6 @@ if (isset($_SESSION['id']) && isset($_SESSION['login'])) {
             <img src="imgs/profile/img_profile-dog.png" alt="Природа" class="prof__img-left">
         </div>
         <div class="prof__right">
-            <h1 style="align-self: flex-start;">Hello, <?php echo $_SESSION['login']; ?></h1>
             <div class="prof__right_bottom">
                 <form action="change_check.php" method="post" class="form form--change-pass">
                     <h1 class="form__title form__title--change-pass">Смена пароля</h1>
