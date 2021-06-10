@@ -15,8 +15,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['login'])) {
 <body>
     <div class="prof__main">
         <div class="prof__left">
-            <a href="logout.php" class="prof__btn-exit">Выход</a>
-            <img src="imgs/profile/black-dino-white2.png" alt="Логотип" class="prof-logo">
+            <a href="main.html"><img src="imgs/profile/black-dino-white2.png" alt="Логотип" class="prof-logo"></a>
             <ul class="prof__list">
                 <li>
                     <a href="" class="prof__file">Профиль</a>
@@ -32,6 +31,9 @@ if (isset($_SESSION['id']) && isset($_SESSION['login'])) {
                 </li>
                 <li>
                     <a href="">Оформленные тарифы</a>
+                </li>
+                <li>
+                    <button class="prof__btn-go">Выйти</button>
                 </li>
             </ul>
             <img src="imgs/profile/img_profile-dog.png" alt="Природа" class="prof__img-left">

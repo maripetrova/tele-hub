@@ -28,7 +28,6 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
 			$row = mysqli_fetch_assoc($result);
 			if (password_verify($pass, $row['password'])) {
 				$_SESSION['login'] = $row['login'];
-				$_SESSION['name'] = $row['name'];
 				$_SESSION['id'] = $row['id'];
 				header("Location: profile.php");
 				exit();

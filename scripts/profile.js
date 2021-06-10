@@ -8,6 +8,6 @@ function link_to_change_pass() {
 		'            </div>\n' +
 		'        </form>'
 
-	const div = document.getElementsByClassName("prof__right_bottom")[0]
+	const div = document.getElementsByClassName("prof__right")[0]
 	div.innerHTML = form
 }
