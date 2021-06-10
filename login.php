@@ -29,7 +29,7 @@ if (isset($_POST['login']) && isset($_POST['password'])) {
 			if (password_verify($pass, $row['password'])) {
 				$_SESSION['login'] = $row['login'];
 				$_SESSION['id'] = $row['id'];
-				header("Location: profile.php");
+				header("Location: profile.html");
 				exit();
 			}else {
 				header("Location: main.php?error_signin= Неверный логин или пароль");
