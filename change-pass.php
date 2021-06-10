@@ -33,7 +33,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['login'])) {
                     <a href="">Оформленные тарифы</a>
                 </li>
                 <li>
-                    <button class="prof__btn-go">Выйти</button>
+                    <a href="main.html"><button class="prof__btn-go">Выйти</button></a>
                 </li>
             </ul>
             <img src="imgs/profile/img_profile-dog.png" alt="Природа" class="prof__img-left">
