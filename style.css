@@ -221,6 +221,9 @@ input {
     font-weight: bold;
     font-size: 60px;
 }
+.container__btn>a {
+    color: black;
+}
 .delivery__treeRight {
     position: absolute;
     width: 88px;
@@ -564,8 +567,8 @@ input {
     padding: 30px
 }
 .bot-img {
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background: url(imgs/bot/black-dino-white.png) center;
     background-size: cover;
     border-radius: 50%;
@@ -574,17 +577,15 @@ input {
   position: relative;
   top: -20px;
   left: -20px;
-    height: 20px;
+    height: 18px;
     width: 20px;
     border-radius: 50%;
-    
     cursor: pointer;
     background: url(imgs/bot/icon_cross.png) center;
     background-size: cover;
 }
 .bot-answer {
     font-size: 18px;
-    /* border-bottom: 2px solid rgba(194, 25, 217, 0.63); */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -603,7 +604,6 @@ input {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    
 }
 .bot-content {
     height: 280px;
@@ -663,10 +663,9 @@ input {
 .show-bot {
     position: fixed;
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
-    /*background-color: royalblue;*/
-    background: url(imgs/bot/bot-nikita.jpg) center;
+    height: 120px;
+    width: 120px;
+    background: url(imgs/bot/black-dino-white.png) center;
     background-size: cover;
     right: -100px;
     bottom: 100px;
