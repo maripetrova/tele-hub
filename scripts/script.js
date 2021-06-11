@@ -5,6 +5,6 @@ $(document).ready(function() {
 		loop:true,
 		onSliderLoad: function() {
 			$('#autoWidth').removeClass('cS-hidden');
-		} 
+		};
 	});  
 });
