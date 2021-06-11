@@ -543,7 +543,7 @@ input {
 /*БОТ*/
 .bot-form {
     position: fixed;
-    bottom: 0;
+    bottom: -480px;
     right: 20px;
     height: 480px;
     width: 350px;
@@ -690,8 +690,6 @@ input {
   100%{
     transform: scale(1)
   }
-  
-
 }
 @keyframes bounce {
     0% {
@@ -710,7 +708,6 @@ input {
     position: relative;
     display: flex;
 }
-
 .prof__btn-exit {
     background-color: #da19f3;
     font-size: 22px;
@@ -721,11 +718,9 @@ input {
     right: 10px;
     top: 5px;
 }
-
 .prof__btn-exit:hover {
     opacity: 1;
 }
-
 .prof__left {
     width: 35%;
     display: flex;
